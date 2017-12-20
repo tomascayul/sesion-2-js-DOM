@@ -1,0 +1,1 @@
+var buttonClass = document.getElementsByClassName('button_class');
