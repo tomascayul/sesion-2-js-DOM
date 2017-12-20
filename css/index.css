@@ -33,6 +33,24 @@ body{
 	flex-wrap: wrap;
 }
 
+.box_buttons{
+	width: 46%;
+	/*width: 600px;*/
+	/*width: 50em;*/
+	min-width: 350px;
+	margin: 5px auto;
+	padding: 0px 10px;
+	background: rgba(230,230,230,0.6);
+
+	/*Flex Box*/
+	display: flex;
+	justify-content: space-evenly;
+}
+
+button{
+	background: #878787;
+	box-shadow: 2px 2px 4px #A5A5A5;
+}
 
 .box_footer{
 	width: 46%;
