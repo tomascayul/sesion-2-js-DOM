@@ -1,0 +1,96 @@
+/*estilos*/
+body{
+	background: url(img/fondo.jpg);
+}
+
+.box_header{
+	width: 46%;
+	/*width: 600px;*/
+	/*width: 50em;*/
+	min-width: 350px;
+	margin: 50px auto 5px auto;
+	padding: 0px 10px;
+	background: rgba(76,250,44,0.6);
+
+	/*Flex Box*/
+	display: flex;
+	justify-content: center;
+}
+
+
+.box_content{
+	width: 46%;
+	/*width: 600px;*/
+	/*width: 50em;*/
+	min-width: 350px;
+	margin: 5px auto;
+	padding:20px 10px;
+	background: rgba(230,230,230,0.6);
+
+	/*Flex Box*/
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+.box_footer{
+	width: 46%;
+	/*width: 600px;*/
+	/*width: 50em;*/
+	min-width: 350px;
+	margin: 5px auto;
+	padding: 0px 10px;
+	background: rgba(76,250,44,0.6);
+
+	/*Flex Box*/
+	display: flex;
+	justify-content: center;
+}
+
+.ics{
+	width: 46%;
+	/*width: 600px;*/
+	/*width: 50em;*/
+	min-width: 350px;
+	margin: 5px auto;
+	padding: 20px;
+
+	/*Flex Box*/
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+h2{
+	font-size: 1.5rem;
+	color: white;
+	text-shadow: 1.5px 1.5px #404040;
+}
+
+.photo{
+	width: 200px;
+	height: 200px;
+	border: 2 px solid #ccc;
+    border-radius: 300px;
+
+    /*Flex Box*/
+}
+
+.text{
+	list-style-type: none;
+	font-family: verdana;
+
+	/*Flex Box*/
+	align-self: center;
+	flex-grow: 0;
+}
+ul{
+	padding-bottom: 40px;
+}
+
+li{
+	font-size: 16px;
+	color: #000033;
+}
