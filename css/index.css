@@ -1,7 +1,14 @@
 /*estilos*/
 body{
-	background: url(img/fondo.jpg);
+	background: url(../img/fondo.jpg);
 }
+
+li p{
+	display: inline;
+	font-size: 15px;
+	color: #000033;
+}
+
 
 .box_header{
 	width: 46%;
@@ -17,6 +24,11 @@ body{
 	justify-content: center;
 }
 
+.colorNombre{
+	font-size: 2.5rem;
+	color: blue;
+	text-shadow: 1.5px 1.5px #404040;
+}
 
 .box_content{
 	width: 46%;
@@ -39,17 +51,21 @@ body{
 	/*width: 50em;*/
 	min-width: 350px;
 	margin: 5px auto;
-	padding: 0px 10px;
-	background: rgba(230,230,230,0.6);
+	padding: 8px 10px;
+	background: rgba(240,248,255,0.6);
 
 	/*Flex Box*/
 	display: flex;
 	justify-content: space-evenly;
 }
 
+
 button{
 	background: #878787;
 	box-shadow: 2px 2px 4px #A5A5A5;
+	width: 8rem;
+	height: 2rem;
+	border-radius: 5%;
 }
 
 .box_footer{
@@ -108,7 +124,3 @@ ul{
 	padding-bottom: 40px;
 }
 
-li{
-	font-size: 16px;
-	color: #000033;
-}
